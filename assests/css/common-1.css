@@ -1,0 +1,236 @@
+main {
+    height: 100vh;
+    background-color: #6f42c1;
+}
+
+h1 {
+    font-family: 'oswald', sans-serif;
+}
+
+button,
+button:focus {
+    border: none !important;
+    outline: none !important;
+}
+
+.active {
+    font-weight: bold !important;
+    text-decoration: none !important
+}
+
+.social a {
+    color: #444 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important;
+    color: #73AE20 !important;
+    font-weight: bold !important;
+    font-size: 27px !important;
+}
+
+#back-up i {
+    display: block !important;
+    position: absolute !important;
+    bottom: 2rem !important;
+    right: 2rem !important;
+    z-index: 1000 !important;
+    color: white !important;
+    border-radius: 50%;
+    border: 3px solid #000;
+    background-color: #F8F8F8;
+}
+
+@media screen and (max-width: 768px) {
+    .social {
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+    }
+    .navbar-nav {
+        margin: 3rem auto;
+        text-align: center;
+    }
+}
+
+.dropdown-item:active {
+    background-color: #73AE20 !important;
+}
+
+.btn-danger {
+    background-color: #73AE20 !important;
+    border: 1px solid #73AE20 !important;
+}
+
+.closebtn:hover {
+    color: #73AE20 !important;
+}
+
+.input-group {
+    width: 100% !important;
+}
+
+.mt-80 {
+    margin-top: 80px !important;
+}
+
+
+/* DROPDOWN MENU FONTSIZE AND STYLING */
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem !important;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 1rem !important;
+}
+
+
+/* BRAND PAGE STYLING */
+
+.layout-1 #content {
+    padding: 30px 0 0 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+b,
+strong {
+    color: black !important;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+.manufacturer-list {
+    border: 1px solid #e5e5e5;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.manufacturer-heading {
+    background: none repeat scroll 0 0 #f8f8f8;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    padding: 5px 8px;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.manufacturer-content {
+    padding: 8px;
+}
+
+ul.breadcrumb {
+    margin: 23px 0;
+    background-color: transparent;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    line-height: 100%;
+}
+
+.breadcrumb {
+    list-style: none;
+    border-radius: 4px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+    padding: 0 17px 0 8px;
+    margin-right: 7px;
+    position: relative;
+}
+
+ul.breadcrumb li a {
+    display: block;
+    padding: 0;
+    color: #999;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul.breadcrumb li:last-child {
+    padding: 5px 0px;
+}
+
+ul.breadcrumb li:not(:last-child):after {
+    font-family: 'FontAwesome';
+    content: '\f105';
+    font-size: 13px;
+    top: 0px;
+    right: 0;
+    position: absolute;
+}
+
+
+/* carousel prev and next icon styling */
+
+.carousel-control-prev-icon {
+    background-color: #73ae20 !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.carousel-control-next-icon {
+    background-color: #73ae20 !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+
+/*  ends here */
+
+
+/* INDEX PAGE OVERFLOW */
+
+body {
+    overflow-x: hidden !important;
+}
+
+.dropdown-item:active {
+    background-color: #73AE20 !important;
+}
+
+
+/* ENDS HERE */
+
+
+/* subscription css */
+
+.well {
+    padding: 35px;
+    padding-left: 30px;
+    box-shadow: 0 0 10px #666666;
+    margin: 4% auto 0;
+    /* width: 800px; */
+}
+
+.btn-danger {
+    background-color: #73AE20 !important;
+    border: 1px solid #73AE20 !important;
+}
+
+.text-success1 {
+    color: #73AE20 !important;
+}
+
+
+/* ends here */

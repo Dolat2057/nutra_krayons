@@ -1,0 +1,123 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* search css */
+
+.search {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    opacity: 0.9;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.search a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.search a:hover {
+    color: #f1f1f1;
+}
+
+.search .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .search {
+        padding-top: 15px;
+    }
+    .search a {
+        font-size: 18px;
+    }
+}
+
+.search-container {
+    font-size: 25px;
+    width: 100%;
+}
+
+.search-submit {
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'oswald', 'sans-serif';
+}
+
+.neuromorphism-btn {
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: 'oswald', 'sans-serif';
+}
+
+.neuro-btn1,
+.neuro-btn2,
+.neuro-btn3,
+.neuro-btn4,
+.neuro-btn5,
+.search-submit {
+    border-radius: 29px;
+    background: linear-gradient(145deg, #000, #000);
+    box-shadow: rgb(80, 77, 77), rgb(17, 16, 16);
+    color: white !important;
+    line-height: 40px !important;
+}
+
+.dropdown-item:active {
+    background-color: #73AE20 !important;
+}

@@ -1,0 +1,27 @@
+ .container {
+     border-radius: 51px;
+     grid-template-columns: 12fr 1fr;
+ }
+ 
+ .xzoom-thumbs {
+     text-decoration: none;
+ }
+ 
+ .xzoom-thumbs a img {
+     display: inline-block;
+     height: 80px;
+     width: 80px;
+     border: 2px solid #ccc;
+ }
+ 
+ .xzoom-preview {
+     margin-left: 20px;
+     border: 1px solid #e0e0e0;
+     box-shadow: 4px 20px 2px #73ae20;
+     height: 400px !important;
+     width: 550px !important;
+ }
+ 
+ .xzoom-gallery {
+     margin-left: 8px;
+ }

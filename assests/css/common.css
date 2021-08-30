@@ -1,0 +1,103 @@
+ul.breadcrumb li a {
+    font-size: 15px;
+    font-family: 'oswald', 'sans-serif';
+}
+
+ul.breadcrumb li a:hover {
+    color: #73AE20 !important;
+}
+
+b {
+    font-size: 20px !important;
+    font-weight: 600;
+    font-family: 'oswald', 'sans-serif';
+    text-transform: uppercase !important;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'oswald', 'sans-serif';
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    font-family: 'oswald', 'sans-serif' !important;
+}
+
+.mrtop {
+    margin-top: -4px !important;
+}
+
+strong {
+    font-size: 20px !important;
+    font-weight: 600;
+    font-family: 'oswald', 'sans-serif';
+}
+
+.link-color:hover {
+    color: #73AE20 !important;
+}
+
+.footer-social-links nav ul li a:hover i {
+    padding-bottom: 4px;
+    color: #73AE20;
+    font-size: 18px
+}
+
+.fa-arrow-right {
+    color: #73AE20;
+}
+
+.fa-arrow-right:hover {
+    color: black !important;
+}
+
+.footer-nav-container li a:hover {
+    border-bottom: 1px solid #73AE20;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-changeable {
+    margin-top: 0px;
+}
+
+.itotal {
+    font-weight: bold !important;
+}
+
+.closebtn {
+    color: black !important;
+}
+
+.closebtn:hover {
+    color: #73AE20 !important;
+}
+
+
+/* navbar toggle icon color change */

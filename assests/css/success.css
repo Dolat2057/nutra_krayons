@@ -1,0 +1,155 @@
+svg {
+	 width: 100px;
+	 display: block;
+	 margin: 1px auto 0;
+}
+ .path {
+	 stroke-dasharray: 1000;
+	 stroke-dashoffset: 0;
+}
+ .path.circle {
+	 -webkit-animation: dash 0.9s ease-in-out;
+	 animation: dash 0.9s ease-in-out;
+}
+ .path.line {
+	 stroke-dashoffset: 1000;
+	 -webkit-animation: dash 0.9s 0.35s ease-in-out forwards;
+	 animation: dash 0.9s 0.35s ease-in-out forwards;
+}
+ .path.check {
+	 stroke-dashoffset: -100;
+	 -webkit-animation: dash-check 0.9s 0.35s ease-in-out forwards;
+	 animation: dash-check 0.9s 0.35s ease-in-out forwards;
+}
+ .para-center {
+	 text-align: center;
+	 margin: 20px 0 60px;
+	 font-size: 1.25em;
+}
+ .para-center.success {
+	 color: #73af55;
+}
+ .para-center.error {
+	 color: #d06079;
+}
+ @-webkit-keyframes dash {
+	 0% {
+		 stroke-dashoffset: 1000;
+	}
+	 100% {
+		 stroke-dashoffset: 0;
+	}
+}
+ @keyframes dash {
+	 0% {
+		 stroke-dashoffset: 1000;
+	}
+	 100% {
+		 stroke-dashoffset: 0;
+	}
+}
+ @-webkit-keyframes dash-check {
+	 0% {
+		 stroke-dashoffset: -100;
+	}
+	 100% {
+		 stroke-dashoffset: 900;
+	}
+}
+ @keyframes dash-check {
+	 0% {
+		 stroke-dashoffset: -100;
+	}
+	 100% {
+		 stroke-dashoffset: 900;
+	}
+}
+ .scroll {
+	 scrollbar-color: green;
+}
+ body {
+	 background-color: #fff;
+	 height: 90vh;
+	 font-family: sans-serif;
+	 color: #fff;
+}
+ .options {
+	 display: flex;
+	 justify-content: space-around;
+	 height: 110px;
+}
+ .options select {
+	 height: 30px;
+	 border-radius: 5px;
+	 border: 0;
+	 box-shadow: 0px 10px 30px -8px rgba(6, 33, 62, 0.75);
+}
+ .text-effect {
+	 border: 3px solid #fff;
+	 border-radius: 12px;
+	 display: flex;
+	 height: 88%;
+	 justify-content: center;
+	 align-items: center;
+	 color: #fff;
+	 font-family: sans-serif;
+	 font-size: 60px;
+	 font-weight: 900;
+	 text-align: center;
+	 text-transform: uppercase;
+	 font-style: italic;
+	 text-shadow: 0 1px 0 #73ae20, 0 2px 0 #73ae20, 0 3px 0 #73ae20, 0 4px 0 #73ae20, 0 5px 0 #73ae20, 0 6px 0 #73ae20, 0 7px 0 #73ae20, 0 8px 0 #73ae20, 0 9px 0 #73ae20, 0 10px 0 #73ae20, 0 11px 0 #73ae20, 0 12px 0 #73ae20, 0 13px 0 #73ae20, 0 14px 0 #73ae20, 0 15px 0 #73ae20, 0 25px 15px rgba(0, 0, 0, 0.7);
+}
+ .text-effect span {
+	 display: inline-block;
+	 animation: animate 1.4s infinite;
+	 padding: 0 5px;
+}
+ .text-effect span:nth-child(7) {
+	 animation-delay: 0.7s;
+}
+ .text-effect span:nth-child(6) {
+	 animation-delay: 0.6s;
+}
+ .text-effect span:nth-child(5) {
+	 animation-delay: 0.5s;
+}
+ .text-effect span:nth-child(4) {
+	 animation-delay: 0.4s;
+}
+ .text-effect span:nth-child(3) {
+	 animation-delay: 0.3s;
+}
+ .text-effect span:nth-child(2) {
+	 animation-delay: 0.2s;
+}
+ .text-effect span:nth-child(1) {
+	 animation-delay: 0.1s;
+}
+ @keyframes animate {
+	 50%, 100% {
+		 transform: translate(0, 0);
+	}
+	 0% {
+		 transform: translate(0, 0);
+	}
+	 50% {
+		 transform: translate(0, -40px);
+	}
+}
+ @media only screen and (max-width: 1000px) {
+	 .text-effect {
+		 font-size: 40px;
+	}
+}
+ @media only screen and (max-width: 479px) {
+	 .text-effect {
+		 font-size: 30px;
+	}
+}
+ @media only screen and (max-width: 359px) {
+	 .text-effect {
+		 font-size: 20px;
+	}
+}
+ 

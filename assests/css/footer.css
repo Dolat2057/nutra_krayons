@@ -1,0 +1,321 @@
+﻿.footer-container.footer-one {
+    background-color: #f8f8f8;
+}
+
+.snow--section-effect {
+    position: relative;
+}
+
+.pb-50 {
+    padding-bottom: 50px!important;
+}
+
+.pt-100 {
+    padding-top: 100px!important;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-container.footer-one .col {
+    flex-basis: 17.5%;
+    margin-bottom: 50px;
+}
+
+.col {
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: none !important;
+}
+
+.footer-single-widget .logo {
+    margin-bottom: 35px;
+}
+
+.col.footer-single-widget .logo img {
+    max-width: 170px;
+    text-align: center;
+}
+
+.footer-single-widget h5.widget-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.multi-testimonial-single-item__author-info .content .name,
+.instagram-section-intro p a,
+.about-single-block p.subtitle,
+.single-faq .card-header h5 button {
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'oswald', sans-serif;
+    font-style: normal;
+}
+
+h5 {
+    line-height: 18px;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav-container nav ul li {
+    padding: 10px 0;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+.footer-nav-container nav ul li a {
+    font-size: 15px;
+    line-height: 20px;
+    color: #999;
+    position: relative;
+}
+
+a,
+button,
+img,
+input,
+span,
+.banner-box.banner-hover-1 .banner-image:after,
+.banner-box .banner-info {
+    transition: all 250ms ease-out;
+}
+
+a,
+button {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-nav-container nav ul li:first-child {
+    padding-top: 0;
+}
+
+.footer-nav-container nav ul li {
+    padding: 10px 0;
+}
+
+.footer-social-links ul li {
+    position: relative;
+}
+
+.footer-social-links ul li a {
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.footer-social-links ul li a i {
+    position: absolute;
+    left: 0;
+    color: #333;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-subscription-widget {
+    margin: 0 15px;
+}
+
+.footer-subscription-widget .footer-subscription-title {
+    font-size: 14px;
+    line-height: 34px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.footer-subscription-widget .subscription-subtitle {
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    margin-top: 0;
+}
+
+p {
+    margin: 0 0 15px 0;
+}
+
+form {
+    margin-bottom: 0;
+}
+
+.footer-subscription-widget .subscription-form {
+    position: relative;
+}
+
+.footer-subscription-widget .subscription-form input {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.footer-subscription-widget .subscription-form button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 35px;
+    padding: 0;
+}
+
+.footer-copy {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.fa-arrow-right {
+    color: #73AE20 !important;
+}

@@ -1,0 +1,189 @@
+@media (min-width: 1200px) {
+    body.layout-2 .container,
+    body.layout-1 .container {
+        max-width: 1650px;
+        padding: 0;
+        width: 93%;
+    }
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul.breadcrumb {
+    margin: 23px 0;
+    background-color: transparent;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    line-height: 100%;
+}
+
+.breadcrumb {
+    list-style: none;
+    border-radius: 4px;
+}
+
+ul.breadcrumb li {
+    display: inline-block;
+    padding: 0 17px 0 8px;
+    margin-right: 7px;
+    position: relative;
+}
+
+ul.breadcrumb li a {
+    display: block;
+    padding: 0;
+    color: #999;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul.breadcrumb li:last-child {
+    padding: 5px 0px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.item-article {
+    font-size: 13px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left;
+    }
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+b,
+strong {
+    font-weight: 700;
+}
+
+ul.breadcrumb li:not(:last-child):after {
+    font-family: 'FontAwesome';
+    content: '\f105';
+    font-size: 13px;
+    top: 0px;
+    right: 0;
+    position: absolute;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3,
+.h4,
+.h5,
+.h6,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px 0;
+}
+
+.account-login .well,
+.affiliate-login .well {
+    min-height: 395px;
+    background: #fff;
+}
+
+.well {
+    padding: 19px;
+    margin-bottom: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+}
+
+.btn-primary {
+    background: #999;
+    text-transform: uppercase;
+}
+
+.button,
+.btn {
+    padding: 9px 20px;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    border-color: #199211;
+}

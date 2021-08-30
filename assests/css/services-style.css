@@ -1,0 +1,38 @@
+.shipping_details {
+    background-color: #fff;
+}
+
+.section_padding {
+    padding: 50px 0px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 3640px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+.shipping_details .single_shopping_details img {
+    max-width: 48px;
+}
+
+.shipping_details .single_shopping_details h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 34px 0 10px;
+    font-family: 'oswald', 'sans-serif';
+}
+
+p {
+    font-family: "oswald", sans-serif;
+    line-height: 2;
+    font-size: 15px;
+    margin-bottom: 0px;
+    color: #606060;
+    font-weight: 400;
+}
+
+.banner a img:hover {
+    opacity: 0.8 !important;
+    color: #c1f37c;
+}

@@ -1,0 +1,213 @@
+.owl-nav .owl-prev {
+    position: absolute;
+    left: -15px;
+    top: 40%;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    right: -15px;
+    top: 40%;
+}
+
+.section-title .heading-2 {
+    text-align: center;
+}
+
+.section-title .heading-2 {
+    font-size: 31px !important;
+    font-family: 'Open Sans', sans-serif;
+    color: #9c9ea3 !important;
+    font-weight: 300;
+    position: relative;
+}
+
+.card-title {
+    text-decoration: none !important;
+}
+
+#shop .shopping_box {
+    -webkit-box-shadow: 0 0 2px #d1d1d1;
+    box-shadow: 0 0 2px #d1d1d1;
+    min-height: 386px;
+}
+
+.shopping_box .shop_content {
+    padding: 15px;
+}
+
+.shopping_box .shop_content .price_product,
+.shop_info .price_product,
+.cart_table .price_product {
+    color: #73AE20;
+}
+
+.shopping_box a.btn-cart {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    bottom: 10px;
+    opacity: 0;
+}
+
+.shopping_box:hover a.btn-cart {
+    opacity: 1;
+}
+
+.shopping_box:hover a.title_link {
+    color: #73AE20;
+}
+
+.btn_common {
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: normal !important;
+    font-size: 13px;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    position: relative;
+    z-index: 1;
+}
+
+.yellow,
+.btn_common.blue:hover:before,
+.btn_common.blue:focus:before,
+.btn_border:hover::before,
+.btn_border:focus::before,
+.btn_border:hover,
+.btn-dark:hover::before,
+.btn-dark:focus::before,
+.btn-dark:hover,
+.white_border:hover::before,
+.white_border:focus::before {
+    background: #73AE20;
+    border-color: #73AE20;
+}
+
+.white_border:hover,
+.white_border:focus {
+    border: 1px solid #73AE20;
+}
+
+.yellow,
+.yellow:hover,
+.yellow:focus,
+.white_border,
+.white_border:hover,
+.white_border:focus,
+.btn_border:hover,
+.btn_border:focus,
+.blue,
+.blue:hover,
+.blue:focus {
+    color: #fff;
+}
+
+.readmore {
+    font-size: 15px;
+    color: #282828;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+.overlay {
+    background-color: rgba(15, 15, 15, 0.3);
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    position: absolute;
+    opacity: 0;
+    z-index: 99;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    -o-transition: opacity .5s linear;
+    -webkit-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+}
+
+.border_radius {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.btn_common:before {
+    background: #3e9fbe;
+    border: 1px solid #3e9fbe;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+    -ms-transform: scale(0.5, 1);
+    -o-transform: scale(0.5, 1);
+    -webkit-transform: scale(0.5, 1);
+    transform: scale(0.5, 1);
+}
+
+.btn_common:hover::before,
+.btn_common:focus::before {
+    opacity: 1;
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+}
+
+.shopping_box h4.price_product {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.cbp-item:hover .overlay,
+.shopping_box:hover .overlay,
+#expert_slider .item:hover .overlay {
+    opacity: 1;
+}
+
+.image,
+.image img {
+    position: relative;
+}
+
+.image img {
+    -o-transition: all .8s linear;
+    -webkit-transition: all .8s linear;
+    transition: all .8s linear;
+    width: 100%;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image:hover img,
+.events:hover .image img,
+.course:hover .image img,
+#expert_slider .item:hover img,
+.team:hover .image img {
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transform-origin: center center;
+    -o-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
